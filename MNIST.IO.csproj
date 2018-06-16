@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFramework>netstandard1.3</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Guy Langston</Authors>
     <Description>"THE MNIST DATABASE of handwritten digits" DataReader
@@ -16,5 +16,11 @@ http://yann.lecun.com/exdb/mnist/</Description>
 
 If you want to play around with the MNIST dataset on C#, but don't want to distraction of writing the file parser, this package is for you.</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="System.IO.Compression" Version="4.3.0" />
+    <PackageReference Include="System.IO.FileSystem" Version="4.3.0" />
+  </ItemGroup>
 
 </Project>
