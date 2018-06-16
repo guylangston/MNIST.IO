@@ -6,7 +6,15 @@
     <Authors>Guy Langston</Authors>
     <Description>"THE MNIST DATABASE of handwritten digits" DataReader
 http://yann.lecun.com/exdb/mnist/</Description>
-    <Copyright />
+    <Copyright>MIT</Copyright>
+    <PackageLicenseUrl>https://github.com/guylangston/MNIST.IO/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/guylangston/MNIST.IO</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/guylangston/MNIST.IO</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>mnist-data</PackageTags>
+    <PackageReleaseNotes>"THE MNIST DATABASE of handwritten digits" DataReader http://yann.lecun.com/exdb/mnist/
+
+If you want to play around with the MNIST dataset on C#, but don't want to distraction of writing the file parser, this package is for you.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
