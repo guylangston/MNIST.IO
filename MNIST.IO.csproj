@@ -15,6 +15,7 @@ http://yann.lecun.com/exdb/mnist/</Description>
     <PackageReleaseNotes>"THE MNIST DATABASE of handwritten digits" DataReader http://yann.lecun.com/exdb/mnist/
 
 If you want to play around with the MNIST dataset on C#, but don't want to distraction of writing the file parser, this package is for you.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
